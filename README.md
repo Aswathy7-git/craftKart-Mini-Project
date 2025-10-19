@@ -187,39 +187,6 @@ cd ../client
 npm install
 ```
 
-5. **Configure environment variables**
-
-Create a `server/.env` file (you can copy from `server/config.env`):
-
-```env
-NODE_ENV=development
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/craftkart
-CLIENT_URL=http://localhost:3000
-
-# JWT Configuration
-JWT_SECRET=your_jwt_secret_key_here
-JWT_EXPIRE=7d
-
-# Cloudinary Configuration (for image uploads)
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
-# Email Configuration
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password
-
-# Payment Configuration
-STRIPE_SECRET_KEY=your_stripe_secret_key
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-
-# AI Configuration (optional)
-OPENAI_API_KEY=your_openai_api_key
-```
 
 6. **Create a .env file for the client (optional)**
 
@@ -485,4 +452,3 @@ For any queries or support, please contact:
 
 ---
 
-**Made with ❤️ by the CraftKart Team**
